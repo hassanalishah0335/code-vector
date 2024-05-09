@@ -2,7 +2,7 @@ import React from 'react'
 import { myCards } from "../../constants/index.js";
 import ServiceCard from "../ServiceCard";
 
-const Index = () => {
+const ServiceSection = () => {
   return (
     <div className= " bg-white grid lg:grid-cols-3 sm:grid-cols-2 pl-[10%] pr-[3%] py-[5%]" id="services">
       {
@@ -25,4 +25,4 @@ const Index = () => {
  )
 }
 
-export default Index
+export default ServiceSection
