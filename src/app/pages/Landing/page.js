@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
-import ServiceSection from "../../components/ServiceSection";
+import ServiceSection from "../../components/ServiceSection/Index"
 import IndustrySection from "../../components/IndustrySection";
 import TechSection from "../../components/TechSection";
 import Counter from "../../components/Counter";
