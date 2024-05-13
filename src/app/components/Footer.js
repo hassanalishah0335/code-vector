@@ -23,14 +23,14 @@ const index = () => {
                         <BsTelephone size={40} color='gray' />
                         <div className="flex flex-col ml-2">
                             <h1 className="">Phone</h1>
-                            <p className="">+923-700-183-868</p>
+                            <p className="">+92-370-0183868</p>
                         </div>
                     </div>
                     <div className="flex items-center">
                         <BsTelephone size={40} color='gray' />
                         <div className="flex flex-col ml-2">
                             <h1 className="">Phone</h1>
-                            <p className="">+447-763-476-849</p>
+                            <p className="">+44-776-3476849</p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const index = () => {
                         <Link href="https://www.facebook.com/profile.php?id=61559385179760" target="_blank" className="hover:opacity-70 active:opacity-50 px-2">
                             <FaFacebook size={40} color='gray' />
                         </Link>
-                        <Link href="https://www.instagram.com/codevectortechnologies/" target="_blank" className="hover:opacity-70 active:opacity-50 px-2">
+                        <Link href="https://www.instagram.com/code.vector?igsh=MXYxZ2xwbG5oc2MxMA==" target="_blank" className="hover:opacity-70 active:opacity-50 px-2">
                             <FaInstagram size={40} color='gray' />
                         </Link>
                         <Link href="https://twitter.com/CodeVectorTech" target="_blank" className="hover:opacity-70 active:opacity-50 px-2">
