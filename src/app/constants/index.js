@@ -125,14 +125,14 @@ export const LastCardData = [
 export const SoftwareDetails = [
   {
     t0: 'Enterprise Softwares',
-    t1: 'Resource & Process Management',
+    t1: 'Resource Management',
     t2: 'Supply Chain Management',
     t3: 'Financial Management',
     t4: 'Administrative Procedures',
   },
   {
     t0: 'Industrial Software',
-    t1: 'Human-machine Interface Software',
+    t1: 'machine Interface Software',
     t2: 'Military Engineer Services',
     t3: 'Maintenance Management',
     t4: 'Equipment Management',
@@ -142,7 +142,7 @@ export const SoftwareDetails = [
     t0: 'Artificial Intellegence',
     t1: 'Image Analysis',
     t2: 'Audio Video Interleave',
-    t3: 'Defect And Recognition Services',
+    t3: 'Defect Recognition Services',
     t4: 'Augmented Reality',
     t5: 'Virtual Reality',
     t5: 'Chatbots',
@@ -193,10 +193,6 @@ export const popular = [
   {
     src : "/resource/images/tech/Python.svg",
     title : "Python"
-  },
-  {
-    src : "/resource/images/tech/Kotlin.jpeg",
-    title : "Kotlin"
   },
   {
     src : "/resource/images/tech/Azure.svg",
@@ -342,10 +338,6 @@ export const DB = [
   {
     src : "/resource/images/tech/MSSQL.svg",
     title : "MS SQL"
-  },
-  {
-    src : "/resource/images/tech/MYSQL.png",
-    title : "MY SQL"
   },
   {
     src : "/resource/images/tech/Mongo.svg",

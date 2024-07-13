@@ -28,7 +28,7 @@ const Navbar = ({ section }) => {
       </div>
       <ul className={`lg:flex items-center justify-center mr-10 ${click ? 'flex flex-col bg-black w-full absolute top-[60px] left-[3px] rounded-xl text-3xl gap-5 py-5' : 'hidden'}`}>
         {NAV_LINKS.map((link, key) => (
-          <li key={key} className="md:py-4 md:justify-center mx-2">
+          <li key={key} className="md:py-2 md:justify-center mx-2">
             <ScrollLink
               to={link.href} // Element ID to scroll to
               spy={true}
