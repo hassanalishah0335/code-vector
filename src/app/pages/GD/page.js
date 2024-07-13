@@ -8,11 +8,14 @@ import FAQ from '../../components/FAQ'
 import Footer from "../../components/Footer";
 import Email from "../../components/Email";
 import Chat from "../../components/Chat";
+import MoveUp from "../../components/MoveUp";
+
 
 const AllPages = () => {
     return (
         <>
             <Navbar  />
+            <MoveUp/>
             <Hero title = "Graphic Designing with CodeVector"/>
             <ServicePage 
             title={"Elevate User Experiences with Our UI/UX Design Expertise"}

@@ -5,8 +5,9 @@ import { Front, Back, popular, Mobile, DB } from '@/app/constants'
 const TechNav = () => {
   const [array, setarray] = useState(popular)
   return (
-    <div className="bg-white px-[10%] py-[5%] lg:min-h-[45rem] " id='technologies'>
+    <div className="bg-white px-[10%] sm:py-[5%] py-[10%] lg:min-h-[45rem] " id='technologies'>
       <div className="text-3xl font-bold my-2">CodeVector&apos;s set of technologies for software development</div>
+      <div className="border-b-2 w-[100%] my-5" style={{ borderImage: 'linear-gradient(to right, #000000, #c000ff) 1' }}></div>
       <div className="text-xl ">Partner with our skilled and experienced IT experts in web and mobile software engineering. As a reliable technology and business partner, we use the latest technologies, frameworks, and components to create software with robust and efficient back-ends and intuitive user interfaces and user experiences.</div>
         <div className="flex flex-wrap gap-5 justify-start font-semibold mt-10 pb-5 border-b-2 border-gray-400">
             <button className=" cursor-pointer border-gray-500 pr-5 hover:opacity-85 active:opacity-100 opacity-70" onClick={()=> setarray(popular)} >Popular</button>

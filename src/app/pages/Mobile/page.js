@@ -8,11 +8,14 @@ import FAQ from '../../components/FAQ'
 import Footer from "../../components/Footer";
 import Chat from "../../components/Chat";
 import Email from "../../components/Email";
+import MoveUp from "../../components/MoveUp";
+
 
 const AllPages = () => {
     return (
         <>
             <Navbar  />
+            <MoveUp />
             <Hero title = "Mobile App Development with CodeVector"/>
             <ServicePage 
             title={"Custom Mobile App Development: Tailored to Your Success"}

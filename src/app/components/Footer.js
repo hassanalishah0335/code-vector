@@ -11,30 +11,29 @@ const index = () => {
             <div className="bg-black pl-[10%] pr-[2%] py-10 rounded-tl-3xl rounded-tr-3xl" id='footer' >
                 <h1 className=" text-gray-300 font-bold text-xl mb-3">Contact Us</h1>
                 <div class="border-b-2 border-white w-[95%] mb-10"></div>
-                <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 mb-20 text-gray-300">
-                    <div className="flex items-center">
+                <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5 mb-20 text-gray-300">
+                    <a href='mailto:codevectortechnologies@gmail.com' rel="noreferrer" className="flex items-center w-[90%] cursor-pointer hover:bg-gray-950 shadow-lg hover:shadow-white rounded-xl sm:p-2">
                         <AiOutlineMail size={40} color='gray' />
                         <div className="flex flex-col ml-2">
                             <h1 className="font-bold">Email</h1>
                             <p className="">codevectortechnologies@gmail.com</p>
                         </div>
-                    </div>
-                    <div className="flex items-center">
+                    </a>
+                    <a href='tel:+923700183868' rel="noreferrer" className="flex items-center w-[90%] cursor-pointer hover:bg-gray-950 shadow-lg hover:shadow-white rounded-xl p-2">
                         <BsTelephone size={40} color='gray' />
                         <div className="flex flex-col ml-2">
                             <h1 className="">Phone</h1>
                             <p className="">+92-370-0183868</p>
                         </div>
-                    </div>
-                    <div className="flex items-center">
+                    </a>
+                    <a href='tel:+923350183868' rel="noreferrer" className="flex items-center w-[90%] cursor-pointer hover:bg-gray-950 shadow-lg hover:shadow-white rounded-xl p-2">
                         <BsTelephone size={40} color='gray' />
                         <div className="flex flex-col ml-2">
                             <h1 className="">Phone</h1>
-                            <p className="">+44-776-3476849</p>
+                            <p className="">+92-335-0183868</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
                 <div class="border-b-2 border-white w-[95%]"></div>
                 <div className=' grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 mb-20'>
                     {LastCardData.map((items,key) => {
@@ -56,11 +55,11 @@ const index = () => {
                         )
                     })}
                 </div>
-                <div className="grid grid-cols-2  pr-12">
+                <div className="sm:grid grid-cols-2 pr-12">
                     <img class="w-[50%]" src="/resource/images/codevector.png" alt='' />
-                    <div>
-                        <div className="text-gray-300  lg:text-6xl md:text-4xl text-xl text-end">Get In Touch{String.fromCharCode(8599)}</div>
-                        <div className="text-white lg:text-lg md:text-base text-sm text-end">codevectortechnologies@gmail.com</div>
+                    <div className='sm:py-0 py-5'>
+                        <div className="text-gray-300 lg:text-6xl md:text-4xl text-xl sm:text-end ">Get In Touch{String.fromCharCode(8599)}</div>
+                        <div className="text-white lg:text-lg md:text-base text-sm sm:text-end ">codevectortechnologies@gmail.com</div>
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 pr-12 pb-10">

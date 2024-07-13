@@ -8,6 +8,8 @@ import FAQ from '../../components/FAQ'
 import Footer from "../../components/Footer";
 import Email from "../../components/Email";
 import Chat from "../../components/Chat";
+import MoveUp from "../../components/MoveUp";
+
 
 const AllPages = () => {
     return (
@@ -54,6 +56,7 @@ const AllPages = () => {
             <Email/>
             <Footer  />
             <Chat />
+            <MoveUp />
         </>
     )
 }

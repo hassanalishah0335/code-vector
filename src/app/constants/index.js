@@ -1,11 +1,11 @@
 
 export const NAV_LINKS = [
-  { href: '/pages/Landing', label: 'Home' },
-  { href: '/pages/Landing/#services', label: 'Services' },
-  { href: '#industries', label: 'Industries' },
-  { href: '#technologies', label: 'Technologies' },
-  { href: '#about', label: 'About Us ' },
-  { href: '#contact', label: 'Contact Us' },
+  { href: 'Home', label: 'Home' },
+  { href: 'services', label: 'Services' },
+  { href: 'industries', label: 'Industries' },
+  { href: 'technologies', label: 'Technologies' },
+  { href: 'about', label: 'About Us ' },
+  { href: 'contact', label: 'Contact Us' },
 ];
 
 export const myCards = [
@@ -72,6 +72,18 @@ export const Industry = [
     title: 'Construction',
     text: 'We help construction companies improve their communication and collaboration with our custom software solutions. We develop software for project management, building information modeling (BIM), and CAD. Our solutions help our clients reduce errors, improve safety, and deliver projects on time and on budget.'
   },
+  {
+    title: 'E-Commerce',
+    text: 'We help eCommerce companies build and grow their online businesses with our custom software solutions. We develop software for online stores and marketplaces, payment processing and order management, and customer relationship management and marketing automation. Our solutions help our clients increase sales and streamline their operations.'
+  },
+  {
+    title: 'Real Estate',
+    text: 'We help real estate companies streamline their operations and grow their businesses with our custom software solutions. We develop software for property listing and search, lead generation and CRM, and transaction management and closing. Our solutions help our clients save time and money, improve their customer service, and close more deals.'
+  },
+  {
+    title: 'Education',
+    text: 'We empower educational institutions with innovative software solutions for student information systems, learning management, online courses, and performance tracking. Our technology saves time, improves student engagement, and streamlines administration, allowing educators to focus on delivering high-quality education.'
+  }
 ]
 
 export const LastCardData = [
@@ -113,7 +125,7 @@ export const LastCardData = [
 export const SoftwareDetails = [
   {
     t0: 'Enterprise Softwares',
-    t1: 'Resource and Process Management',
+    t1: 'Resource & Process Management',
     t2: 'Supply Chain Management',
     t3: 'Financial Management',
     t4: 'Administrative Procedures',
@@ -122,7 +134,7 @@ export const SoftwareDetails = [
     t0: 'Industrial Software',
     t1: 'Human-machine Interface Software',
     t2: 'Military Engineer Services',
-    t3: 'Computerized Maintenance Management',
+    t3: 'Maintenance Management',
     t4: 'Equipment Management',
     t5: 'Quality Management',
   },
@@ -130,7 +142,7 @@ export const SoftwareDetails = [
     t0: 'Artificial Intellegence',
     t1: 'Image Analysis',
     t2: 'Audio Video Interleave',
-    t3: 'Defect Recognition',
+    t3: 'Defect And Recognition Services',
     t4: 'Augmented Reality',
     t5: 'Virtual Reality',
     t5: 'Chatbots',
@@ -183,8 +195,8 @@ export const popular = [
     title : "Python"
   },
   {
-    src : "/resource/images/tech/Postgre.svg",
-    title : "Postgre SQL"
+    src : "/resource/images/tech/Kotlin.jpeg",
+    title : "Kotlin"
   },
   {
     src : "/resource/images/tech/Azure.svg",
@@ -199,7 +211,7 @@ export const popular = [
     title : "Javascript"
   },
   {
-    src : "/resource/images/tech/net.svg",
+    src : "/resource/images/tech/Net.svg",
     title : "Net"
   },
   {
@@ -266,7 +278,7 @@ export const Mobile = [
     title : "Swift"
   },
   {
-    src : "/resource/images/tech/Kotlin.svg",
+    src : "/resource/images/tech/Kotlin.jpeg",
     title : "Kotlin"
   },
   {
@@ -316,7 +328,7 @@ export const Back = [
 
 export const DB = [
   {
-    src : "/resource/images/tech/Postgre.svg",
+    src : "/resource/images/tech/Postgre.png",
     title : "Postgre"
   },
   {
@@ -332,7 +344,7 @@ export const DB = [
     title : "MS SQL"
   },
   {
-    src : "/resource/images/tech/MYSQL.svg",
+    src : "/resource/images/tech/MYSQL.png",
     title : "MY SQL"
   },
   {

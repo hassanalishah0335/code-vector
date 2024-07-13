@@ -43,9 +43,9 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className="flex flex-wrap gap-5">
-                    <div className="w-[49%]">
-                    <label className='text-xl' for="cars">Service Needed</label>
-                    <select name="cars" className='border border-gray-300 w-full h-10' required>
+                    <div className="sm:w-[49%] w-full">
+                    <label className='text-xl' for="service">Service Needed</label>
+                    <select name="service" className='border border-gray-300 w-full h-10' required>
                         <option value="">Select Service</option>
                         <option value="Web Development">Web Development</option>
                         <option value="Mobile Development">Mobile Development</option>
@@ -55,9 +55,9 @@ const ContactUs = () => {
                         <option value="Graphic Designing">Graphic Designing</option>
                     </select>
                     </div>
-                    <div className="w-[49%]">
-                    <label className='text-xl' for="cars">Budget</label>
-                    <select name="car" className='border border-gray-300 w-full h-10' required>
+                    <div className="sm:w-[49%] w-full">
+                    <label className='text-xl' for="budget">Budget</label>
+                    <select name="budget" className='border border-gray-300 w-full h-10' required>
                         <option value="">Select Budget</option>
                         <option value="less then $1,000">less then $1,000</option>
                         <option value="$1,000-$5,000">$1,000-$5,000</option>
@@ -70,7 +70,7 @@ const ContactUs = () => {
                 <div className="flex flex-col w-full items-start">
                 <label className='text-xl'>Message</label>
                 <textarea name="message" className='border border-gray-300 w-full h-40' placeholder='Type your Message here...' required />
-                <input type="submit" className='bg-black text-gray-300 p-3 hover:opacity-70 active:opacity-50 cursor-pointer my-5 font-semibold w-20 text-xl' value="Send" />
+                <input type="submit" className='bg-black text-gray-300 p-3 hover:opacity-70 active:opacity-50 cursor-pointer my-5 font-semibold sm:w-20 w-full rounded-3xl text-xl' value="Send" />
                 </div>
             </form>
         </div>

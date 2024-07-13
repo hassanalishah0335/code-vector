@@ -26,7 +26,7 @@ const BigCard = () => {
                 <p className='text-xl w-[70%] my-4'>Our goal is not only to meet your needs but to surpass them, leaving you delighted with the outcome. Your satisfaction is our priority, and we are committed to going above and beyond to achieve it.</p>
 
             </div>
-            <div class="md:pr-[5%] md:flex md:flex-wrap items-center">
+            {/* <div class="md:pr-[5%] md:flex md:flex-wrap items-center">
                 <img class="rounded-r-full md:w-[35%] shadow-2xl" src="/resource/images/Hassan.jpg" alt="" />
                 <div class="flex flex-wrap md:w-[60%] ml-[5%] my-[3%]">
                     <h2 class="text-5xl font-semibold relative ">Hassan Ali
@@ -49,7 +49,7 @@ const BigCard = () => {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import ServiceSection from "../../components/ServiceSection/Index"
@@ -9,6 +10,7 @@ import FAQ from "../../components/FAQ";
 import Footer from "../../components/Footer";
 import Chat from "../../components/Chat";
 import Email from "../../components/Email";
+import MoveUp from "../../components/MoveUp";
 
 const AllPages = () => {
     return (
@@ -24,6 +26,7 @@ const AllPages = () => {
             <Email/>
             <Footer  />
             <Chat />
+            <MoveUp />
         </>
     )
 }
